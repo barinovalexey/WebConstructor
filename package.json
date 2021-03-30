@@ -1,0 +1,19 @@
+{
+  "name": "webconstructor",
+  "version": "1.0.0",
+  "description": "Learning project. React. TypeScript. Redux. Thunk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barinovalex/WebConstructor.git"
+  },
+  "author": "Barinov Alexey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barinovalex/WebConstructor/issues"
+  },
+  "homepage": "https://github.com/barinovalex/WebConstructor#readme"
+}
