@@ -4,7 +4,10 @@
   "description": "Learning project. React. TypeScript. Redux. Thunk.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "webpack",
+    "start": "webpack-dev-server -open",
+    "eslint": "eslint --ext .jsx --ext .js src/",
+    "test": "npm run eslint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/barinovalex/WebConstructor/issues"
   },
-  "homepage": "https://github.com/barinovalex/WebConstructor#readme"
+  "homepage": "https://github.com/barinovalex/WebConstructor#readme",
+  "devDependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/preset-env": "7.13.12",
+    "@babel/preset-react": "7.13.13",
+    "babel-loader": "8.2.2",
+    "eslint": "7.23.0",
+    "eslint-config-htmlacademy": "3.0.0",
+    "eslint-plugin-react": "7.23.1",
+    "webpack": "5.28.0",
+    "webpack-cli": "4.6.0",
+    "webpack-dev-server": "3.11.2"
+  }
 }
