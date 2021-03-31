@@ -1,9 +1,10 @@
-import React from "react";
+import * as React from "react";
 
-export const App = () => {
+export const App = (props) => {
+  const { h1 } = props;
   return (
     <>
-      <h1 className="visually-hidden">Конструктор сайтов</h1>
+      <h1 className="visually-hidden">{h1}</h1>
 
       <form className = "grid-select">
         <h2 className = "grid-select__header" >Выберите сетку сайта </h2>
